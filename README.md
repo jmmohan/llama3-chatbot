@@ -18,3 +18,13 @@ Ensure you have the following installed:
 ## How to Run
 
 python -m uvicorn app:app --host 127.0.0.1 --port 8000
+
+Go to browser:  http://127.0.0.1:8000/docs  this will give Swagger API 
+You can see  the end point  POST:  generate_user_stories / 
+click on try it out
+give the input 
+{
+  "epic": "As a project manager, I want to assign tasks to team members so that I can track progress."
+}
+
+it will generate user stories for the above epic
